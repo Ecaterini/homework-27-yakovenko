@@ -37,3 +37,7 @@ Home-work-27/
 ├── .editorconfig  # Базові налаштування форматування коду
 └── README.md       # Документація
 ```
+
+## 🔗 Посилання
+
+(https://ecaterini.github.io/homework-27-yakovenko/)
