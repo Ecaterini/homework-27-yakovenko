@@ -209,3 +209,12 @@ body {
   color: #fff;
   font-weight: 600;
 }
+@media (max-width: 600px) {
+  .slider {
+    height: 50vh;
+  }
+  .title {
+    font-size: 2em;
+    text-align: center;
+  }
+}
