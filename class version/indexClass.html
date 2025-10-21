@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider Class</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1 class="title">Paintings by Salvador Dalí</h1>
+    <div class="frame">
+      <section class="slider">
+        <h2 class="visually-hidden">Gallery</h2>
+        <div class="slider__wrapper">
+          <div class="slider__track">
+            <div class="slide active">
+              <img src="../img/1.jpg" alt="slide 1">
+            </div>
+            <div class="slide">
+              <img src="../img/2.jpg" alt="slide 2">
+            </div>
+            <div class="slide">
+              <img src="../img/3.jpg" alt="slide 3">
+            </div>
+            <div class="slide">
+              <img src="../img/4.jpg" alt="slide 4">
+            </div>
+            <div class="slide">
+              <img src="../img/5.jpg" alt="slide 5">
+            </div>
+          </div>
+        </div>
+        <!-- Индикаторы, навигатор и контролс создаем в JS -->
+        <div class="slider__info">
+          Use <strong>arrows ←→</strong> on your keyboard, <strong>swipe</strong> on mobile, or
+          <strong>mouse drag</strong>
+        </div>
+      </section>
+    </div>
+    <p class="inform">Версія слайдера також, як і main.js, на классах, але з динамічно створеними через JS елементами
+      управління</p>
+  </div>
+  <script src="classScript.js"></script>
+</body>
+
+</html>
