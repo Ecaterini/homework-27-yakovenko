@@ -80,5 +80,9 @@ Home-work-27/
 ## 🔗 Посилання
 
 (https://ecaterini.github.io/homework-27-yakovenko/) -Оригінальна версія
+
+```
 (https://ecaterini.github.io/homework-27-yakovenko.prototype/) - Версія на прототипах
+```
+
 (https://ecaterini.github.io/homework-27-yakovenko.class/) - Версія на класах
